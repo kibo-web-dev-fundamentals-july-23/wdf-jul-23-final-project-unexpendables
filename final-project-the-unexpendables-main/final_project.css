@@ -292,3 +292,58 @@ footer {
 #cexp {
   color: #01083c;
 }
+body {
+  font-family: Arial, sans-serif;
+}
+
+.faqs {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}
+
+h3 {
+  font-size: 18px;
+  color: #007BFF;
+}
+
+p {
+  font-size: 16px;
+  color: #444;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.faq-answer {
+  display: none; /* Hide answers by default */
+}
+
+.faq-answer.active {
+  display: block; /* Show the answer when 'active' class is present */
+  margin-top: 10px; /* Add some spacing between question and answer */
+  font-style: italic; /* Optional: Add italics to the answer */
+}
+
